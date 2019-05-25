@@ -1,3 +1,210 @@
-.knuthahn{
-	padding-right: 10px;
+:root{
+--tema: #e80c94;
+}
+body{
+font-family: 'Roboto', sans-serif;
+overflow-x: hidden; 
+}
+
+
+.laddaned{
+
+	padding: 10px;
+}
+
+.underv{
+	background-color: var(--tema);
+	height: 40px;
+	width: 300px;
+
+}
+
+.kalender{
+	width: 295px;
+	height: 200px;
+	border: solid 2px #666666;
+	border-radius: 20px;
+	padding: 10px;
+
+}
+
+.ruta{
+	padding: 20px;
+}
+
+.bilder{
+	height: 500px;
+
+}
+
+.quiz{
+	width: 295px;
+	height: 200px;
+	border: solid 2px #666666;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.carousel-inner{
+	height: 100%;
+	width: 100%;
+
+}
+.cookie{
+	height: 300px;
+	text-align: center;
+
+
+}
+
+.kaka{
+	height: 100px;
+	width: 100px;
+}
+
+.quiz1{
+	background-color: var(--tema);;
+}
+
+.navbar{
+	background-color: #fff;
+	box-shadow: 0px 3px 15px 1px black;
+}
+
+.ner{
+	margin-top: 20px;
+}
+
+.upp{
+	margin-top: -20px;
+}
+
+.fas {
+	font-size: 4em;
+}
+
+.fa-venus{
+	color: var(--tema);;
+}
+
+.fa-chalkboard-teacher{
+	color: #99cc33;
+}
+
+.fa-laptop-code{
+
+	color: #cc6633;
+}
+
+.upp2{
+	margin-top: -70px;
+}
+
+.cookie{
+	text-align: center;
+	margin-top: 100px;
+
+}
+
+footer{
+	text-align: center;
+	background-color: var(--tema);;
+	padding: 20px;
+}
+
+.resp-container {
+	position: relative;
+	overflow: hidden;
+	padding-top: 56.25%;
+}
+
+.resp-iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+
+.effekt:hover{
+	background-color:  #e80c94;
+	border-radius: 20px;
+}
+
+.kontakt{
+	background-color: #e80c94;
+	height: 400px;
+}
+
+.column {
+	float: left;
+	width: 33.3%;
+	margin-bottom: 16px;
+	padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+	.column {
+		width: 100%;
+		display: block;
+	}
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+	padding: 0 16px;
+}
+
+.container::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.title {
+	color: grey;
+}
+
+.mentorer{
+	width: 50px;
+}
+.sektioner{
+	padding-top: 140px;
+}
+
+
+.meny{
+	margin-top: -140px;
+	padding-top: 140px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+.facebook{
+	text-align: right;
+}
+.instagram{
+	text-align: left;
+}
+
+.mapouter{
+
+	text-align:right;
+	height:500px;
+    width:600px;    
+}
+
+.gmap_canvas{
+	overflow:hidden;
+	background:none!important;
+	height:500px;
+	width:600px;
 }
