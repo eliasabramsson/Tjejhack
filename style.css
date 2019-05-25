@@ -100,7 +100,7 @@ nav{
 
 .cookie{
 	text-align: center;
-	margin-top: 80px;
+	margin-top: 100px;
 
 }
 
@@ -174,4 +174,16 @@ padding: 20px;
 
 .mentorer{
 	width: 50px;
+}
+.sektioner{
+	padding-top: 140px;
+}
+
+section{
+margin-top: -140px;
+padding-top: 140px;
+
+}
+html {
+  scroll-behavior: smooth;
 }
