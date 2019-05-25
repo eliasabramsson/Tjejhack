@@ -1,1 +1,14 @@
+1. Det planerade utseendet för sidan fungerade inte alls bra. Såg inte bra ut och var svårt att få responsivt.
+Detta löstes med vanlig design där divvar ligger i rad istället för på olika sätt som det krävdes flexbox för att lösa. 
+Eftersom jag ändå inte tyckte det såg bra ut valde jag istället att börja om med en ny planering. Allt ska nu hamna på samma sida
+utan olika undersidor och liknande.
 
+2. Bildslidern var svår att få fullt responsiv vilket löstes med att jag ändrade bilderna till samma bra storlek.
+
+3. Svårt att få iFrame att bli responsivt. Löstes med diverse divvar och CSS. Yttre div position relative och inre absolute, bland annat.
+
+4. Quizet fungerade inte. Tog sin tid men visade sig till slut att jag bara skrivit en variabel fel.
+
+5. Menyn (har bara en sida) kom inte precis till platsen jag hänvisat den till när man tryckte ner till "kontakt" eller "press".
+Visade sig att det var min navbar som var i vägen och löstes i CSS med en kombination av padding-top och margin-top som tog ut
+varandra när man tittade på skärmen men räknade in navbaren för länken från menyn så man kom till rätt ställe.
