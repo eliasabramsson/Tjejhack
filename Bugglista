@@ -1,14 +1,20 @@
 1. Det planerade utseendet för sidan fungerade inte alls bra. Såg inte bra ut och var svårt att få responsivt.
 Detta löstes med vanlig design där divvar ligger i rad istället för på olika sätt som det krävdes flexbox för att lösa. 
 Eftersom jag ändå inte tyckte det såg bra ut valde jag istället att börja om med en ny planering. Allt ska nu hamna på samma sida
-utan olika undersidor och liknande.
+utan olika undersidor och liknande. Det var svårt att fylla upp undersidorna med innehåll så jag kom fram till att det då var snyggare
+att samla allt på samma ställe och sen ha en meny som tar dig igenom den enskilda sidan istället.
 
-2. Bildslidern var svår att få fullt responsiv vilket löstes med att jag ändrade bilderna till samma bra storlek.
+2. Andra ändringar från planeringen: Ändrade antalet bilder till 2 istället för 5 för jag gillade de bilderna jag hade och ville att de
+skulle synas så mycket som möjligt. Skulle man vilja öka antalet i framtiden är det dock något mycket enkelt. Jag lade dessutom till
+ett quiz för skojs skull, alltid kul med lite extra JavaScript;) Kalenderfunktion var väldigt svårt och skulle tagit allt för mycket tid
+vilket ledde till mitt val av att ha en ruta i gridsystemet tillängnad till att berätta nästa datum för tjejhack istället.
 
-3. Svårt att få iFrame att bli responsivt. Löstes med diverse divvar och CSS. Yttre div position relative och inre absolute, bland annat.
+3. Bildslidern var svår att få fullt responsiv vilket löstes med att jag ändrade bilderna till samma bra storlek.
 
-4. Quizet fungerade inte. Tog sin tid men visade sig till slut att jag bara skrivit en variabel fel.
+4. Svårt att få iFrame att bli responsivt. Löstes med diverse divvar och CSS. Yttre div position relative och inre absolute, bland annat.
 
-5. Menyn (har bara en sida) kom inte precis till platsen jag hänvisat den till när man tryckte ner till "kontakt" eller "press".
+5. Quizet fungerade inte. Tog sin tid men visade sig till slut att jag bara skrivit en variabel fel.
+
+6. Menyn (har bara en sida) kom inte precis till platsen jag hänvisat den till när man tryckte ner till "kontakt" eller "press".
 Visade sig att det var min navbar som var i vägen och löstes i CSS med en kombination av padding-top och margin-top som tog ut
 varandra när man tittade på skärmen men räknade in navbaren för länken från menyn så man kom till rätt ställe.
