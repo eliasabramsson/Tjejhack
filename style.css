@@ -3,49 +3,55 @@ body{
 }
 
 .laddaned{
-	margin-top: -20px;
-	margin-left: -90px;
-	text-align: center;
+
+	padding: 10px;
 }
 
-.btn-dark{
-	background-color: #ff001e;
+.underv{
+	background-color: #e80c94;
 	height: 40px;
 	width: 300px;
-	margin-top: 40px;
+	
+	
 
 }
 
 .kalender{
 	width: 295px;
 	height: 200px;
-	border: solid 2px #ff001e;
+	border: solid 2px #e80c94;
 	border-radius: 20px;
-	margin-top: 20px;
+	padding: 10px;
+
+	}
+
+.ruta{
+		padding: 20px;
+	}
 }
 
 .bilder{
-	margin-top: -140px;
-	margin-left: -90px;
+height: 500px;
+
 }
 
-.socmedier{
+.quiz{
 	width: 295px;
 	height: 200px;
-	background-color: #ff001e;
-	margin-top: 20px;
+	border: solid 2px #e80c94;
+	border-radius: 20px;
+	padding: 10px;
 }
 
 .carousel-inner{
-	height: 400px;
-	border: solid 2px #ff001e;
-	border-radius: 20px;
+		height: 100%;
+	width: 100%;
 
 }
 .cookie{
 	height: 300px;
 	text-align: center;
-	margin-top: 40px;
+
   
 }
 
@@ -53,3 +59,42 @@ body{
 	height: 100px;
 	width: 100px;
 }
+
+.quiz1{
+	background-color: #e80c94;
+}
+
+nav{
+	background-color: #fff;
+	box-shadow: 0px 3px 15px 1px black;
+}
+
+.ner{
+	margin-top: 20px;
+}
+
+.upp{
+	margin-top: -20px;
+}
+
+.fas {
+	font-size: 4em;
+}
+
+.fa-venus{
+	color: #e80c94;
+}
+
+.fa-chalkboard-teacher{
+	color: #99cc33;
+}
+
+.fa-laptop-code{
+
+	color: #cc6633;
+}
+
+.upp2{
+	margin-top: -70px;
+}
+
